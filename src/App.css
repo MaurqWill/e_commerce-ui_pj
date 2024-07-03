@@ -1,0 +1,73 @@
+/* commented out because of bootstrap */
+
+#app-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(49, 49, 49);
+  color: white;
+  height: 100vh; 
+}
+
+
+/* .lists {
+  width: 500px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+} */
+
+/* li {
+  background-color: lightblue;
+  padding: 5px;
+  margin: 5px 0;
+  border-radius: 4px;
+  color: rgb(49,49,49);
+} */
+
+.li:hover {
+  background-color: #bbb9b9; 
+}
+
+/* ul {
+  list-style-type: none;
+} */
+
+/* Additional CSS styles to prevent overlapping */
+.mt-5 {
+  margin-top: 3rem;
+}
+
+.li {
+  cursor: pointer;
+}
+
+
+
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.card button {
+  margin-top: 10px;
+}
